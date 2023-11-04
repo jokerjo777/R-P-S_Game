@@ -1,0 +1,73 @@
+body {
+  background: rgb(14, 14, 35);
+  color: white;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(14, 14, 35);
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: rgba(0, 255, 255, 0.436);
+  border-radius: 10px;
+}
+
+button {
+  background-color: black;
+  color: aqua;
+  font-size: 100;
+  padding: 20px 20px;
+  border: none;
+  border-radius: 100px;
+  outline: 1px solid aqua;
+  cursor: pointer;
+  margin: 10px;
+} 
+
+button:active {
+  background-color: transparent;
+  outline: 2px solid aqua;
+}
+
+#reset {
+  font-size: medium;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+#reset:active {
+  background-color: transparent;
+  outline: 2px solid aqua;
+}
+
+#some {
+  font-weight: 100;
+  font-size: 30;
+}
+
+div {
+  background-color: rgb(40, 40, 66);
+  width: 100%;
+  height: calc(100% - 60%);
+}
+
+div > h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 100;
+  color: aqua;
+}
+
+div > p {
+  font-size: 30;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 100;
+  margin: 0;
+}
